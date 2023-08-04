@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
 	// messageDiv.innerHTML = "..."
 	loader(messageDiv);
 
-	const response = await fetch("https://tasin-pamzzr88z-tasinmir20.vercel.app/", {
+	const response = await fetch("https://tasin.vercel.app/", {
 		method: "POST",
 		headers: {
 			"Content-Type": "application/json",
